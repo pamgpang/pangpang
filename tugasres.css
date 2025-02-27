@@ -1,0 +1,81 @@
+.atas{
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+    display: flex;
+}
+.tengah{
+    width: 100%;
+    height: 500px;
+    background-color: aqua;
+    display: flex;
+    
+}
+.kiri{
+    width: 20%;
+    height: 500px;
+    background-color: red;
+
+}
+.tengah2{
+    width: 60%;
+    height: 500px;
+    background-color: green;
+    margin: auto;
+    
+    
+}
+.flex{
+    display: flex;
+}
+.kanan{
+    width: 20%;
+    height: 500px;
+    background-color: chartreuse;
+}
+.kotak{
+    width: 80%;
+    height: 100px;
+    background-color: orange;
+    margin-top: 30px;
+    margin-left: 25PX;
+}
+.kotak2{
+    width: 80%;
+    height: 300px;
+    background-color: orange;
+    margin-top: 30px;
+    margin-left: 25PX;
+}
+.kotak3{
+    width: 90%;
+    height: 450px;
+    background-color: skyblue;
+    margin-left: 40px;
+    
+}
+.bulat{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    border-bottom-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    margin: auto;
+}
+.kotak4{
+    width: 70%;
+    height: 300px;
+    background-color:bisque;
+    margin-left: 40px;
+    
+    
+}
+@media screen and (max-width: 600px){
+    .tengah{
+        display: block;
+    }
+}
+    

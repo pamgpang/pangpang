@@ -1,0 +1,110 @@
+.font {
+  font-family: "Lobster", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#font-miring{
+    color: aliceblue;
+}
+
+}
+.gbrr{
+    width: 50%;
+    height: 100px;
+    background-color: yellow;
+}
+#warnaa{
+    color: darkgray;
+}
+#warnaaa{
+    color: darkgoldenrod;
+}
+#warna2{
+    color: dimgray;
+}
+#warna3{
+    color: aquamarine;
+}
+.vidio{
+   /* margin-top: 200px;*/
+    width: 100%;
+    height: 400px;
+    background-color: aqua;
+}
+#set-vid{
+    width: 100%;
+    height: 100%;
+    
+}
+#galery{
+    width: 50%;
+    height: 400px;
+    background-color: red;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    background: linear-gradient(white,black
+    )
+}
+.foto{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+   
+}
+#lingkaran{
+    width: 50px;
+    height: 50px;
+    background-color: firebrick;
+    border-top-left-radius: 25%;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    border-top-right-radius: 25%;
+    
+    
+}
+.jdl-web{
+    background-color: black;
+}
+@media screen and (max-width: 600px){
+    .gbrr{
+        width: 100%;
+    }
+     body{
+        background-color:skyblue;
+        
+    }
+    .jdl-web{
+        text-align: center;
+        color: red;
+        font-style: italic;
+        background-color: lightpink;
+    }
+    #galery{
+        width: 100%;
+        display: block;
+        
+    }
+    .foto{
+        width: 100%;
+        
+    }
+    
+}
+#gbrr{
+    width: 100%;
+    height: 100px;
+}
+@media screen and (max-width: 600px){
+    #gbrr{
+        display: none;
+    }
+    .foto{
+        background-color: aqua;
+        height: 100px;
+    }
+    .leg{
+        display: block;
+    }
+   
+}
